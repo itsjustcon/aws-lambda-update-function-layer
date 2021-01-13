@@ -1,6 +1,6 @@
 {
   "name": "aws-lambda-update-function-layer",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Easily update an AWS Lambda function layer to the most recent version.",
   "main": "index.js",
   "bin": "cli.js",
