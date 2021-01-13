@@ -1,0 +1,30 @@
+{
+  "name": "aws-lambda-update-function-layer",
+  "version": "0.0.1",
+  "description": "Easily update an AWS Lambda function layer to the most recent version.",
+  "main": "index.js",
+  "bin": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsjustcon/aws-lambda-update-function-layer.git"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "function",
+    "layer"
+  ],
+  "author": "Connor Grady <conair360@gmail.com> (https://connorgrady.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itsjustcon/aws-lambda-update-function-layer/issues"
+  },
+  "homepage": "https://github.com/itsjustcon/aws-lambda-update-function-layer#readme",
+  "dependencies": {
+    "@aws-sdk/client-lambda": "^3.2.0",
+    "update-notifier": "^5.0.1"
+  }
+}
